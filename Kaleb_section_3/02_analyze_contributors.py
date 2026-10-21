@@ -22,6 +22,7 @@ from health_config import (
     OBS_END,
     OBS_START,
     RECENT_START,
+    SYSTEM_IDENTITIES,
 )
 
 BOT_RE = re.compile(r"(?:\[bot\]$|(?:^|[-_])bot(?:$|[-_]))", re.I)
@@ -178,7 +179,7 @@ def main():
     def add(kind: str, collection: list[dict], ts_field: str):
         for x in collection:
             login = x.get("login", "")
-            if not login or login in excluded_bots:
+            if not login or login in excluded_bots or login in SYSTEM_IDENTITIES:
                 continue
             login = canonical(login)
             ts = x.get(ts_field, "")
@@ -258,6 +259,7 @@ def main():
     summary = {
         "human_contributors_in_window": len(contributor_rows),
         "excluded_bot_accounts": sorted(excluded_bots),
+        "excluded_system_identities": sorted(SYSTEM_IDENTITIES),
         "sampling_group_counts": dict(sorted(category_counts.items())),
         "thresholds": {
             "frequent_activity_in_one_type": FREQUENT_ACTIVITY_THRESHOLD,

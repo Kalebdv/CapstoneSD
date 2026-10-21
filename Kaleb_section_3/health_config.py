@@ -33,6 +33,12 @@ HUMAN_OVERRIDES = {
     "octo-patch",  # borderline name/automation case; manually verified human
 }
 
+# GitHub placeholder/system identities that cannot be treated as one real contributor.
+# "ghost" aggregates artifacts whose original authors deleted their GitHub accounts.
+SYSTEM_IDENTITIES = {
+    "ghost",
+}
+
 # Cross-GitHub-account aliases confirmed to belong to one individual.
 # Keep empty until a candidate has been manually verified. Format:
 #   "old-or-alternate-login": "canonical-login"

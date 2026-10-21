@@ -15,6 +15,7 @@ from health_config import (
     PRS_PER_CONTRIBUTOR_GROUP,
     RANDOM_SEED,
     RECENT_START,
+    SYSTEM_IDENTITIES,
 )
 
 
@@ -73,7 +74,7 @@ def main():
         candidates = []
         for p in prs:
             login = p.get("login", "")
-            if not login or login in bots:
+            if not login or login in bots or login in SYSTEM_IDENTITIES:
                 continue
             login = canonical(login)
             c = contributors.get(login)
@@ -100,7 +101,12 @@ def main():
     sample_issues = []
     issue_sizes = {}
     for status in ("open", "closed"):
-        candidates = [dict(x) for x in issues if x["state_at_cutoff"] == status and x.get("login") not in bots]
+        candidates = [
+            dict(x) for x in issues
+            if x["state_at_cutoff"] == status
+            and x.get("login") not in bots
+            and x.get("login") not in SYSTEM_IDENTITIES
+        ]
         issue_sizes[status] = len(candidates)
         selected = temporal_sample(candidates, ISSUES_PER_STATUS, rng)
         for x in selected:
