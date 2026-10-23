@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "c194dd00cd42aa18d9dbf27d977bf6b85d9ea565",
+  "measurement_utc": "2026-10-23T13:10:21.989069+00:00",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "tools": {
+    "radon": "6.0.1",
+    "ruff": "0.14.0"
+  },
+  "scope": "complete comfy/model_detection.py; extracted-function tests only",
+  "before": {
+    "cc": {
+      "any_suffix_in": 3,
+      "detect_unet_config": 217
+    },
+    "module_mi": 0.0,
+    "module_sloc": 1415,
+    "B006": 1,
+    "sha256": "5b8c69002e7d1f05c3d94ffb8c58b8d442a780f1c9e7f119dd88ffab94b8b373"
+  },
+  "after": {
+    "cc": {
+      "any_suffix_in": 3,
+      "_detect_mmdit_config": 10,
+      "_detect_cascade_config": 7,
+      "detect_unet_config": 202
+    },
+    "module_mi": 0.0,
+    "module_sloc": 1419,
+    "B006": 0,
+    "sha256": "16300b9ee0607f20e77e92b54736b4ec38fa588dfd9285502be7608297ff6b9b"
+  }
+}
