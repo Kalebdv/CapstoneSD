@@ -1,0 +1,16 @@
+M5b -- Unit-test line+branch coverage (tests-unit) at ComfyUI c194dd00
+Command: coverage run --branch --source=<core> -m pytest tests-unit
+         coverage report
+Env: coverage 7.6.1, pytest, CPU torch 2.14.1+cpu (no triton)
+pytest result: 1899 passed, 74 skipped, 0 failed
+
+TOTAL (line+branch): 22%   (119557 stmts, 90231 miss, 39564 branch, 1186 partial)
+
+Per top-level package:
+  app               74%
+  comfy_api         65%
+  comfy_execution   60%
+  api_server        35%
+  comfy_api_nodes   20%
+  comfy             18%
+  comfy_extras      13%

@@ -32,6 +32,21 @@ Metrics
   M6  Security static scan         bandit     -> Security-Integrity
 lizard is used only as an independent cross-check of M1.
 
+Added metrics (separate scripts):
+  M7   Package coupling/instability  02_coupling.py   -> Maintainability-Modularity
+  M5b  Unit-test line+branch cover   03_coverage.sh   -> Maintainability-Testability
+
+M7 (02_coupling.py): static AST import scan over the core tree; computes Robert
+C. Martin's afferent (Ca) / efferent (Ce) coupling and instability I=Ce/(Ca+Ce)
+per top-level package. No code is executed, so it is independent of the GPU
+runtime. Run:  python3 02_coupling.py <comfyui-checkout>
+Result -> output/coupling.txt
+
+M5b (03_coverage.sh): runs the CPU unit-test suite under coverage. Needs a venv
+with CPU torch (NO triton), the repo requirements, tests-unit/requirements.txt
+and coverage==7.6.1. Run:  ./03_coverage.sh <comfyui-checkout> <venv>/bin
+Result -> output/coverage_tests_unit.txt (TOTAL 22% at c194dd00).
+
 Usage
 -----
   # 1. Get ComfyUI at the pinned commit
