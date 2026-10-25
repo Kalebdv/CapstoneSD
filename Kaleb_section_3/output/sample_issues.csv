@@ -1,0 +1,21 @@
+number,login,user_type,author_association,created_at,closed_at,state_at_cutoff,title,comments,url,sample_group
+10699,spacehash,User,NONE,2025-11-10T06:15:15Z,,open,Comfy Cloud - Some outputs couldn't be saved. Try running the workflow again.,3,https://github.com/Comfy-Org/ComfyUI/issues/10699,issue_open
+11523,fdaooo,User,NONE,2025-12-26T22:10:30Z,,open,可以让导出的工作流png中显示markdown笔记的内容吗？,0,https://github.com/Comfy-Org/ComfyUI/issues/11523,issue_open
+12058,sjaak31367,User,NONE,2026-01-24T16:25:54Z,,open,(Windows) ROCm CPU compute much slower than CUDA CPU compute,2,https://github.com/Comfy-Org/ComfyUI/issues/12058,issue_open
+12531,bram-obksur,User,NONE,2026-02-19T15:08:50Z,,open,"Combination New Batch Image node, ChatGPT and NanoBanana Pro not working.",0,https://github.com/Comfy-Org/ComfyUI/issues/12531,issue_open
+13310,Sakura-cool,User,NONE,2026-04-06T13:37:52Z,,open,根据模型缺失提示，我下载了模型，但是不知道对应组件模型加载的文件夹，期望提示对应组件加载的文件夹,1,https://github.com/Comfy-Org/ComfyUI/issues/13310,issue_open
+14131,planb788,User,NONE,2026-05-27T06:05:31Z,,open,"The default workflow using the official workflow template ""stable audio 3"" generates audio that is entirely static.",3,https://github.com/Comfy-Org/ComfyUI/issues/14131,issue_open
+14754,LukeG89,User,NONE,2026-07-03T21:29:49Z,,open,"[Bug] ModelSamplingFlux affects globally the workflow, bypassing it won't disable its effect (Krea2 testing)",3,https://github.com/Comfy-Org/ComfyUI/issues/14754,issue_open
+15433,YiGeSama,User,NONE,2026-08-08T17:14:08Z,,open,"ImageUpscaleWithModel fails on low-VRAM GPUs (4GB): ""Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same"" (v0.29+ regression, broken in 0.30/0.31)",7,https://github.com/Comfy-Org/ComfyUI/issues/15433,issue_open
+16147,OrsoEric,User,NONE,2026-09-06T14:06:25Z,,open,Trellis2 and Pixal3D make empty mesh that cannot be 3D printed,4,https://github.com/Comfy-Org/ComfyUI/issues/16147,issue_open
+16800,sanchit-jarvis,User,NONE,2026-10-05T16:45:11Z,,open,CFGNorm silently returns an all-NaN image for strength above ~4.3 (96% of the declared range),0,https://github.com/Comfy-Org/ComfyUI/issues/16800,issue_open
+10588,Hanselroy,User,NONE,2025-11-01T11:48:44Z,2025-12-10T11:32:41Z,closed,Prompt has no outputs:  is:issue ,1,https://github.com/Comfy-Org/ComfyUI/issues/10588,issue_closed
+10933,juhuaguai,User,NONE,2025-11-27T06:12:20Z,2025-11-28T01:46:55Z,closed,Hope to support configuration https://huggingface.co The mirror site for model download,0,https://github.com/Comfy-Org/ComfyUI/issues/10933,issue_closed
+11298,Editvideo20003,User,NONE,2025-12-12T19:56:38Z,2026-03-17T01:56:37Z,closed,Lost workflow when saving,3,https://github.com/Comfy-Org/ComfyUI/issues/11298,issue_closed
+11608,VladiCz,User,NONE,2026-01-03T14:31:44Z,2026-01-04T09:38:13Z,closed,Custom module ComfyUI-Prompt-Stash stopped working after ComfyUI update to 0.7.0,3,https://github.com/Comfy-Org/ComfyUI/issues/11608,issue_closed
+12027,ioamas,User,NONE,2026-01-22T12:36:29Z,2026-01-27T23:24:45Z,closed,linear(): input and weight.T shapes cannot be multiplied (512x2560 and 7680x3072) error,17,https://github.com/Comfy-Org/ComfyUI/issues/12027,issue_closed
+12896,Zaazu,User,NONE,2026-03-12T05:04:18Z,2026-03-12T15:44:13Z,closed,Unable to paste a new image into the Load Image node,3,https://github.com/Comfy-Org/ComfyUI/issues/12896,issue_closed
+13674,caniyabanci76,User,NONE,2026-05-02T17:10:13Z,2026-05-02T17:13:40Z,closed,Flux.2 Klein 9b (base and distilled) template descriptions both say they are distilled.,0,https://github.com/Comfy-Org/ComfyUI/issues/13674,issue_closed
+14453,Alex-kim-8568,User,NONE,2026-06-13T16:29:14Z,2026-07-21T12:02:21Z,closed,"ComfyCloud: LTXDirector image timeline stores /api/view URL instead of real base64, causing I2V guide image to be ignored",1,https://github.com/Comfy-Org/ComfyUI/issues/14453,issue_closed
+14793,okolenmi,User,NONE,2026-07-06T12:06:15Z,2026-08-17T11:36:57Z,closed,How to force int8 in the latest update?,6,https://github.com/Comfy-Org/ComfyUI/issues/14793,issue_closed
+16729,ayi3030,User,NONE,2026-10-02T10:56:58Z,2026-10-02T11:03:09Z,closed,"[Windows / AIMDO] Weights are never retained in RAM: load_safetensors() always mmaps, making fast_disk=False unreachable (214 GB host-to-device per run)",1,https://github.com/Comfy-Org/ComfyUI/issues/16729,issue_closed

@@ -1,0 +1,41 @@
+number,login,user_type,author_association,created_at,closed_at,state_at_cutoff,title,comments,url,canonical_login,sample_group
+10620,comfyanonymous,User,MEMBER,2025-11-03T22:33:47Z,2025-11-03T22:37:13Z,closed,Speed up torch.compile,0,https://github.com/Comfy-Org/ComfyUI/pull/10620,comfyanonymous,key
+11280,rattus128,User,CONTRIBUTOR,2025-12-11T23:26:33Z,2025-12-19T12:36:38Z,closed,v0.3.77 merge back,0,https://github.com/Comfy-Org/ComfyUI/pull/11280,rattus128,key
+11839,Kosinkadink,User,CONTRIBUTOR,2026-01-13T04:43:57Z,2026-01-13T05:15:25Z,closed,Make database bulk_ops.py more widely compatible across sqlalchemy+python versions,0,https://github.com/Comfy-Org/ComfyUI/pull/11839,Kosinkadink,key
+12506,rattus128,User,CONTRIBUTOR,2026-02-17T15:48:14Z,2026-02-17T20:32:27Z,closed,ops: limit return of requants (Fix perf of some fp8 dynamic_vram workflows),0,https://github.com/Comfy-Org/ComfyUI/pull/12506,rattus128,key
+13651,bigcat88,User,CONTRIBUTOR,2026-05-01T06:03:58Z,2026-05-01T06:15:12Z,closed,[Partner Nodes] always display the custom width and height in GPTImage2,1,https://github.com/Comfy-Org/ComfyUI/pull/13651,bigcat88,key
+13902,comfyanonymous,User,MEMBER,2026-05-14T23:00:04Z,2026-05-14T23:02:23Z,closed,Create SECURITY.md.,1,https://github.com/Comfy-Org/ComfyUI/pull/13902,comfyanonymous,key
+14116,rattus128,User,CONTRIBUTOR,2026-05-26T16:26:35Z,2026-05-30T19:20:04Z,closed,Threaded Loader performance fixes / improvements (+ Aimdo 0.4.6),12,https://github.com/Comfy-Org/ComfyUI/pull/14116,rattus128,key
+15059,comfyui-wiki,User,MEMBER,2026-07-24T09:50:35Z,2026-07-24T11:13:09Z,closed,Update workflow templates to v0.11.17,2,https://github.com/Comfy-Org/ComfyUI/pull/15059,comfyui-wiki,key
+16038,jtydhr88,User,CONTRIBUTOR,2026-09-02T03:35:44Z,2026-09-02T11:35:28Z,closed,Annotate temp paths in Preview3DAdvanced / PreviewGaussianSplat / PreviewPointCloud outputs,1,https://github.com/Comfy-Org/ComfyUI/pull/16038,jtydhr88,key
+16635,comfyanonymous,User,MEMBER,2026-09-29T00:48:40Z,2026-09-29T01:11:29Z,closed,Update comfy-kitchen package version to 0.2.36,2,https://github.com/Comfy-Org/ComfyUI/pull/16635,comfyanonymous,key
+12915,deepme987,User,CONTRIBUTOR,2026-03-13T02:56:30Z,2026-03-13T04:17:51Z,closed,"Revert ""Revert ""feat: Add CacheProvider API for external distributed caching""""",1,https://github.com/Comfy-Org/ComfyUI/pull/12915,deepme987,frequent_non_key
+14320,liminfei-amd,User,CONTRIBUTOR,2026-06-06T15:28:18Z,,open,model_management: default shared-memory-dominant integrated GPUs to SHARED vram,9,https://github.com/Comfy-Org/ComfyUI/pull/14320,liminfei-amd,frequent_non_key
+14745,silveroxides,User,CONTRIBUTOR,2026-07-03T13:13:50Z,2026-07-14T01:19:53Z,closed,Add alternative ways ('TE:' and 'EMB:') to load embeddings in prompt …,3,https://github.com/Comfy-Org/ComfyUI/pull/14745,silveroxides,frequent_non_key
+15697,silveroxides,User,CONTRIBUTOR,2026-08-18T03:26:21Z,2026-08-18T04:25:39Z,closed,feat(minimax): support prompt embeddings,1,https://github.com/Comfy-Org/ComfyUI/pull/15697,silveroxides,frequent_non_key
+16156,drozbay,User,CONTRIBUTOR,2026-09-07T04:48:07Z,,open,Make start/end_percent for timestep scheduling choose steps more predictably across nodes,4,https://github.com/Comfy-Org/ComfyUI/pull/16156,drozbay,frequent_non_key
+16216,deepme987,User,CONTRIBUTOR,2026-09-10T00:29:35Z,,open,[Partner Nodes] feat(Comfy-Cloud): re-enable the reference-to-video node,0,https://github.com/Comfy-Org/ComfyUI/pull/16216,deepme987,frequent_non_key
+16363,deepme987,User,CONTRIBUTOR,2026-09-16T05:56:19Z,2026-09-17T20:04:52Z,closed,List comfy kitchen attention unconditionally in ModelAttentionBackend,2,https://github.com/Comfy-Org/ComfyUI/pull/16363,deepme987,frequent_non_key
+16422,xmarre,User,NONE,2026-09-20T04:57:46Z,2026-09-21T01:28:39Z,closed,Fix MiniMax H3 VAE tile composition,3,https://github.com/Comfy-Org/ComfyUI/pull/16422,xmarre,frequent_non_key
+16460,xmarre,User,NONE,2026-09-22T01:36:03Z,,open,Fix MiniMax H3 packed-sequence memory admission,0,https://github.com/Comfy-Org/ComfyUI/pull/16460,xmarre,frequent_non_key
+16641,drozbay,User,CONTRIBUTOR,2026-09-29T04:49:23Z,,open,Fix various nodes that incidentally prune extra keys from latent,1,https://github.com/Comfy-Org/ComfyUI/pull/16641,drozbay,frequent_non_key
+15020,jethac,User,NONE,2026-07-22T06:45:37Z,,open,Add native Hunyuan3D 2.1 PBR paint (mesh -> multiview -> textured GLB),17,https://github.com/Comfy-Org/ComfyUI/pull/15020,jethac,newcomer
+15495,chelsealong,User,CONTRIBUTOR,2026-08-11T12:32:57Z,,open,Add --pinned-memory override for the pinned host memory cap,3,https://github.com/Comfy-Org/ComfyUI/pull/15495,chelsealong,newcomer
+15712,yzxcj797,User,NONE,2026-08-18T17:30:01Z,2026-08-21T05:51:35Z,closed,Validate deep prompt graphs iteratively,4,https://github.com/Comfy-Org/ComfyUI/pull/15712,yzxcj797,newcomer
+15769,chelsealong,User,CONTRIBUTOR,2026-08-21T04:11:55Z,,open,Fix MiniMax H3 i2v crash: pad condition video latents before patchify,3,https://github.com/Comfy-Org/ComfyUI/pull/15769,chelsealong,newcomer
+15815,chelsealong,User,CONTRIBUTOR,2026-08-23T02:02:14Z,,open,test(userdata): add regression tests for atomic write and invalid filename fixes,1,https://github.com/Comfy-Org/ComfyUI/pull/15815,chelsealong,newcomer
+15830,Sravanjangam,User,NONE,2026-08-23T17:14:41Z,,open,Fix LoRA alpha not applied when the trainer stores it in file metadata,4,https://github.com/Comfy-Org/ComfyUI/pull/15830,Sravanjangam,newcomer
+16099,DKingAlpha,User,NONE,2026-09-04T14:59:08Z,,open,"fix: [MultiGPU] false positive warning ""memory leak with model ...""",6,https://github.com/Comfy-Org/ComfyUI/pull/16099,DKingAlpha,newcomer
+16345,L4XB,User,CONTRIBUTOR,2026-09-15T16:17:38Z,2026-09-15T19:26:31Z,closed,Carry every item of a heterogeneous list through a loop,2,https://github.com/Comfy-Org/ComfyUI/pull/16345,L4XB,newcomer
+16391,chelsealong,User,CONTRIBUTOR,2026-09-18T01:52:52Z,,open,Fix MiniMax H3 VAE attention qk_norm_scale device mismatch on non-CUDA backends,4,https://github.com/Comfy-Org/ComfyUI/pull/16391,chelsealong,newcomer
+16852,jonog247-blip,User,NONE,2026-10-07T17:25:22Z,2026-10-07T17:34:46Z,closed,Minimax optimised,2,https://github.com/Comfy-Org/ComfyUI/pull/16852,jonog247-blip,newcomer
+10576,yousef-rafat,User,CONTRIBUTOR,2025-10-31T16:59:10Z,,open,Add support for Hunyuan Image 3.0,12,https://github.com/Comfy-Org/ComfyUI/pull/10576,yousef-rafat,dormant
+12775,pollockjj,User,CONTRIBUTOR,2026-03-05T05:51:10Z,2026-03-05T06:01:33Z,closed,feat(isolation): DynamicVRAM compatibility for process isolation,1,https://github.com/Comfy-Org/ComfyUI/pull/12775,pollockjj,dormant
+13226,pollockjj,User,CONTRIBUTOR,2026-03-30T00:11:19Z,2026-03-30T09:38:12Z,closed,"feat: isolation layer — conda/sealed workers, model proxies, web directory, fencing",1,https://github.com/Comfy-Org/ComfyUI/pull/13226,pollockjj,dormant
+13327,pollockjj,User,CONTRIBUTOR,2026-04-07T21:38:50Z,2026-04-07T21:45:11Z,closed,fix: pin pyisolate to 0.10.1 in requirements.txt,0,https://github.com/Comfy-Org/ComfyUI/pull/13327,pollockjj,dormant
+13358,octo-patch,User,CONTRIBUTOR,2026-04-11T05:26:01Z,2026-06-16T10:42:54Z,closed,fix: ensure SaveWEBM container is always closed on encoding error,2,https://github.com/Comfy-Org/ComfyUI/pull/13358,octo-patch,dormant
+13370,octo-patch,User,CONTRIBUTOR,2026-04-12T04:18:23Z,2026-06-16T11:21:37Z,closed,fix: log base directory to startup messages when --base-directory is used,2,https://github.com/Comfy-Org/ComfyUI/pull/13370,octo-patch,dormant
+13518,octo-patch,User,CONTRIBUTOR,2026-04-22T15:45:33Z,2026-04-22T22:05:44Z,closed,fix: use Parameter assignment for Stable_Zero123 cc_projection weights,1,https://github.com/Comfy-Org/ComfyUI/pull/13518,octo-patch,dormant
+13608,pollockjj,User,CONTRIBUTOR,2026-04-29T00:23:38Z,2026-04-29T01:20:58Z,closed,Update pyisolate-support from current develop,2,https://github.com/Comfy-Org/ComfyUI/pull/13608,pollockjj,dormant
+14110,pollockjj,User,CONTRIBUTOR,2026-05-26T05:46:02Z,2026-06-08T10:15:06Z,closed,Add SeedVR2 support (CORE-6),21,https://github.com/Comfy-Org/ComfyUI/pull/14110,pollockjj,dormant
+14424,pollockjj,User,CONTRIBUTOR,2026-06-12T00:56:49Z,2026-07-10T07:07:43Z,closed,Add SeedVR2 support (CORE-6),6,https://github.com/Comfy-Org/ComfyUI/pull/14424,pollockjj,dormant

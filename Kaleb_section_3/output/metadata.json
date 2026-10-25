@@ -1,0 +1,12 @@
+{
+  "repository": "Comfy-Org/ComfyUI",
+  "observation_start": "2025-10-18",
+  "observation_end": "2026-10-17",
+  "recent_start": "2026-07-20",
+  "snapshot_sha": "c9ea36b9d2140c89b2ef84f93f428df474e72ba5",
+  "pull_requests": 3520,
+  "issues": 2882,
+  "commits_all": 2057,
+  "commits_non_merge": 2057,
+  "commits_unlinked_author": 4
+}
