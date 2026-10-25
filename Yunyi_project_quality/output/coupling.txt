@@ -1,0 +1,36 @@
+package                  files   Ce   Ca      I
+-----------------------------------------------
+comfy_api_nodes             92    7    0   1.00
+main                         1   12    0   1.00
+comfy_extras               163    8    2   0.80
+server                       1   12    4   0.75
+api_server                   7    2    1   0.67
+execution                    1    6    3   0.67
+app                         42    6    5   0.55
+comfy_execution             10    7    7   0.50
+cuda_malloc                  1    1    1   0.50
+nodes                        1    6    6   0.50
+latent_preview               1    2    3   0.40
+comfy_api                   36    4    8   0.33
+utils                        5    1    2   0.33
+node_helpers                 2    1    4   0.20
+comfy                      320    2   13   0.13
+folder_paths                 1    1   11   0.08
+comfy_config                 2    0    1   0.00
+comfyui_version              1    0    3   0.00
+middleware                   2    0    1   0.00
+protocol                     1    0    3   0.00
+
+'nodes' module afferent coupling (modules that import top-level `nodes`): 39
+    app/node_replace_manager.py
+    comfy_execution/caching.py
+    comfy_execution/graph.py
+    comfy_extras/nodes_camera_trajectory.py
+    comfy_extras/nodes_chroma_radiance.py
+    comfy_extras/nodes_clip_sdxl.py
+    comfy_extras/nodes_compositor.py
+    comfy_extras/nodes_context_windows.py
+    comfy_extras/nodes_controlnet.py
+    comfy_extras/nodes_cosmos.py
+    comfy_extras/nodes_flux.py
+    comfy_extras/nodes_glsl.py

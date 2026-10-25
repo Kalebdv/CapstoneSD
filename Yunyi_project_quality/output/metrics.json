@@ -1,0 +1,200 @@
+{
+  "comfyui_path": "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI",
+  "commit": "c194dd00cd42aa18d9dbf27d977bf6b85d9ea565",
+  "core_scope": [
+    "comfy",
+    "comfy_execution",
+    "comfy_api",
+    "comfy_api_nodes",
+    "comfy_config",
+    "comfy_extras",
+    "app",
+    "api_server",
+    "middleware",
+    "utils",
+    "main.py",
+    "nodes.py",
+    "execution.py",
+    "server.py",
+    "folder_paths.py",
+    "node_helpers.py",
+    "latent_preview.py",
+    "cuda_malloc.py"
+  ],
+  "M1_cyclomatic_complexity": {
+    "blocks": 15578,
+    "mean_cc": 3.15,
+    "grades": {
+      "A": 13541,
+      "B": 1354,
+      "C": 512,
+      "D": 101,
+      "E": 40,
+      "F": 30
+    },
+    "blocks_D_to_F": 171,
+    "pct_D_to_F": 1.1,
+    "worst5": [
+      [
+        217,
+        "detect_unet_config"
+      ],
+      [
+        114,
+        "_save_transcoded"
+      ],
+      [
+        105,
+        "__init__"
+      ],
+      [
+        101,
+        "load_text_encoder_state_dicts"
+      ],
+      [
+        93,
+        "_request_base"
+      ]
+    ]
+  },
+  "M2_maintainability_index": {
+    "files": 687,
+    "ranks": {
+      "A": 593,
+      "B": 37,
+      "C": 57
+    },
+    "pct_A": 86.3,
+    "pct_C": 8.3,
+    "grade_C_files": [
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/audio_encoders/sheetsage2.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/audio_encoders/sheetsage2_abc.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/context_windows.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/controlnet.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/k_diffusion/sampling.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/ace/ace_step15.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/audio/dit.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/lightricks/vae/causal_video_autoencoder.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/minimax/vae.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/modules/attention.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/sam3/tracker.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/seedvr/model.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/seedvr/vae.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/trellis2/model.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/trellis2/vae.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ldm/wan/model.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/model_base.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/model_detection.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/model_management.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/model_patcher.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/ops.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/samplers.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/sd.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/sd1_clip.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/supported_models.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/text_encoders/gemma4.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/text_encoders/llama.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/text_encoders/qwen35.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/utils.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api/latest/_input_impl/video_types.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api/latest/_io.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_bytedance.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_gemini.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_kling.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_minimax.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_tripo.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/util/client.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_execution/caching.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/mesh3d/fileio/gltf_read.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/mesh3d/postprocess/qem_decimate.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/mesh3d/uv_unwrap/pack.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_compositor.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_custom_sampler.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_dataset.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_gaussian_splat.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_images.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_lt.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_lt_keyframes.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_mesh_postprocess.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_model_patch.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_post_processing.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_sam3d_body.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_save_3d.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_wan.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_wandancer.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/execution.py",
+      "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/nodes.py"
+    ]
+  },
+  "M3_module_size": {
+    "core_sloc": 219184,
+    "comment_ratio_pct": 3.6,
+    "files_over_2500_sloc": 4,
+    "largest10": [
+      [
+        4978,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/apis/__init__.py"
+      ],
+      [
+        3378,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_bytedance.py"
+      ],
+      [
+        2817,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_wan.py"
+      ],
+      [
+        2608,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_extras/nodes_mesh_postprocess.py"
+      ],
+      [
+        2442,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_kling.py"
+      ],
+      [
+        2429,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/nodes_tripo.py"
+      ],
+      [
+        2422,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/model_base.py"
+      ],
+      [
+        2118,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/nodes.py"
+      ],
+      [
+        2104,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/sd.py"
+      ],
+      [
+        2048,
+        "/mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/supported_models.py"
+      ]
+    ]
+  },
+  "M4_lint_density": {
+    "repo_gate_findings": 0,
+    "broad_findings": 30017,
+    "broad_excl_E501": 7972,
+    "bugbear_B": 1115
+  },
+  "M5_test_density": {
+    "test_files": 208,
+    "test_functions": 1680,
+    "test_sloc": 29013
+  },
+  "M6_security_scan": {
+    "severity": {
+      "HIGH": 1,
+      "MEDIUM": 3,
+      "LOW": 394
+    },
+    "high_medium": [
+      "MEDIUM B310 /mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/k_diffusion/utils.py:42",
+      "MEDIUM B615 /mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy/text_encoders/sensenova.py:52",
+      "HIGH B324 /mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/comfy_api_nodes/util/request_logger.py:39",
+      "MEDIUM B104 /mnt/vita/scratch/vita-students/users/yunyi/code/ComfyUI/main.py:539"
+    ]
+  }
+}

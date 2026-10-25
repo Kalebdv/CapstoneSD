@@ -1,0 +1,11 @@
+test_cascade_variants (test_quality_demo.QualityDemo.test_cascade_variants) ... ok
+test_missing_required_key_preserves_error (test_quality_demo.QualityDemo.test_missing_required_key_preserves_error) ... ok
+test_mmdit_optional_combinations (test_quality_demo.QualityDemo.test_mmdit_optional_combinations) ... ok
+test_precedence (test_quality_demo.QualityDemo.test_precedence) ... ok
+test_remaining_dispatch_body_is_unchanged (test_quality_demo.QualityDemo.test_remaining_dispatch_body_is_unchanged) ... ok
+test_suffix_contract (test_quality_demo.QualityDemo.test_suffix_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.142s
+
+OK
